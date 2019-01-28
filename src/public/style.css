@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10vh;
+    background-color:white;
+}
+
+button{
+ padding: 10px;
+ background-color: darkorange;
+ border-style: none;     
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 25px;
+ border-radius: 5px;
+ margin-right: 10px;
+}
+
+button:hover{
+    background-color:orange;
+}
+
+button:active{
+    background-color: darkorange;
+}
+
+#app{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.lista{
+    flex: 1 1 35%;
+    margin: 5vh;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista section{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background: linen;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.lista section article{
+        flex: 1 1 65%;
+        margin-right: 5px;
+    }
+
+    .lista section div{
+        flex: 1 1 35%;
+        width: 100%
+    }
+
+.comic{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 65%;
+    margin: 5vh;
+    align-items: center;
+}
+
+
+.fluid{
+    width: 90%;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  .clasificacion label{
+      font-size: 50px;
+  }
+
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  } 
+
+.estrella{
+    font-size: 40px;
+    color: orange;
+}
+  
+.accion{
+    display: flex;
+}
